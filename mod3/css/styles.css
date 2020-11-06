@@ -1,31 +1,24 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #c2d6d6;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #c2d6d6;
   border-radius: 0;
   border: 0;
 }
 
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
-
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  font-family: Comic sans, serif;
-  color: #557c3e;
+  font-family: Comic Sans MS, sans-serif;
+  color: #e6b3b3;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -57,13 +50,23 @@ h2 { /* Our Menu */
   padding-top: 30px;
   height: 1000px;
 }
+
+.menu-title1, .menu-title2, .menu-title3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
 #chicken1, #beef1, #sushi1 {
   background-color: #cc99ff;
   border: 2px black solid;
-  text-align: justify;
-  padding: 10px;
+  padding: 20px;
   width: 80%;
   margin: auto;
-  font-size: 2em;
+  font-size: 1em;
   margin-bottom: 30px;
+  color: black;
+}
+
+.chicken-c, .beef-c, .sushi-c {
+  text-align: justify;
 }
