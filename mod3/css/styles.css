@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+  font-family: Comic sans, serif;
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -45,4 +45,25 @@ body {
 }
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
+}
+
+h2 { /* Our Menu */
+  text-transform: capitalize;
+  margin-top:25px;
+  font-size: 4em;
+}
+
+#main-content {
+  padding-top: 30px;
+  height: 1000px;
+}
+#chicken1, #beef1, #sushi1 {
+  background-color: #cc99ff;
+  border: 2px black solid;
+  text-align: justify;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  font-size: 2em;
+  margin-bottom: 30px;
 }
